@@ -1,0 +1,5 @@
+this folder is create for the learn Full Stack Development
+
+in this folder i have learn javascript, typescript, nodejs or etc.
+
+one by one
