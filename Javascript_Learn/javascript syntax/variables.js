@@ -1,3 +1,4 @@
+console.log("Variable demo");
 //global variable
 let Name = "Apple";
 
