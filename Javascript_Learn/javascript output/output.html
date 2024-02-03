@@ -16,6 +16,9 @@
 
     <h1>windows alert demo</h1>
     <h1>console.log</h1>
+    <h1>windows prompt</h1>
+    <h1>append chlid()</h1>
+    <p id = 'demo2'></p>
 
     
 </body>
@@ -24,8 +27,11 @@
     document.getElementById('innerhtml').innerHTML = 10 * 2;
     document.write('this is demo of document.write');
     window.alert('this is demo of alert');
-    console.log('this is demo of console.log()')
+    console.log('this is demo of console.log()');
+    window.prompt('this is demo of window.prompt');
 
+    var input1 = window.prompt("enter your name : ");
+    document.getElementById('demo2').innerHTML = 'your name is ' + input1;
 </Script>
 
 
