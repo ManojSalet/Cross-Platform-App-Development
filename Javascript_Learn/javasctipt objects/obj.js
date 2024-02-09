@@ -24,3 +24,25 @@ let school = {
 
 school.displayInfo();
 
+console.log("============================================");
+console.log("============================================");
+console.log("============================================");
+console.log("Inherited Properties");
+
+const object1 = new Object();
+object1.property1 = 42;
+
+console.log(object1.hasOwnProperty('property1'));
+
+console.log("============================================");
+console.log("============================================");
+console.log("Accessing Object Members");
+console.log(school.name);
+console.log(school.established);
+
+console.log("============================================");
+console.log("============================================");
+
+
+
+
